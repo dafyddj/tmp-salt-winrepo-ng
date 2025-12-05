@@ -1,13 +1,12 @@
 {
   "extends": [
-    "config:recommended",
+    "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/default",
     ":enablePreCommit",
     ":semanticCommitScopeDisabled",
     ":semanticPrefixChore",
     "helpers:pinGitHubActionDigestsToSemver",
     "customManagers:githubActionsVersions",
   ],
-  "dependencyDashboardTitle": "Renovate Dashboard",
   "customDatasources": {
       "firefox": {
         "defaultRegistryUrlTemplate": "https://product-details.mozilla.org/1.0/firefox_versions.json",
