@@ -1,6 +1,7 @@
 {
   "extends": [
     "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/default",
+    "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/weekends",
     ":enablePreCommit",
     ":semanticCommitScopeDisabled",
     ":semanticPrefixChore",
