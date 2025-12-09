@@ -49,6 +49,7 @@ repos:
                default.json|
                github-actions.json|
                groupByManager.json|
+               package-sls.json|
                pre-commit.json|
                weekends.json|
                (?!)
