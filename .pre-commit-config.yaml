@@ -47,6 +47,7 @@ repos:
           (?x)(
                (^|/).?renovate(?:rc)?(?:\.json5?)?$|
                default.json|
+               groupByManager.json|
                weekends.json|
                (?!)
           )$
