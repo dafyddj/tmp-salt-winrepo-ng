@@ -43,14 +43,6 @@
     },
   },
   "customManagers": [
-    { // See https://github.com/renovatebot/renovate/issues/20780
-      "customType": "regex",
-      "managerFilePatterns": ["/(^|/)\\.pre-commit-config\\.ya?ml$/"],
-      "matchStrings": [
-        "# renovate: datasource=(?<datasource>.*?)( versioning=(?<versioning>.*?))?\\s+-\\s+['\"]?(?<depName>[^=]+)(?:==(?<currentValue>[^'\"\\s]*))?"
-      ],
-      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}pep440{{/if}}"
-    },
     {
       "customType": "regex",
       "managerFilePatterns": ["**/*.sls"],
