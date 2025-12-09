@@ -2,7 +2,7 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"description": "Enable `pre-commit` manager and group non-major updates",
 	"extends": [
-		"github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/groupManager(pre-commit,hooks)",
+		"github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/groupByManager(pre-commit,hooks)",
 		":enablePreCommit"
 	]
 }

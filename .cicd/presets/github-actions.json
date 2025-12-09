@@ -2,7 +2,7 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"description": "Group `github-actions` non-major updates and enable regex versions",
 	"extends": [
-		"github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/groupManager(github-actions,actions/images)",
+		"github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/groupByManager(github-actions,actions/images)",
 		"customManagers:githubActionsVersions"
 	]
 }
