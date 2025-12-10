@@ -19,7 +19,11 @@
 			"commitMessageAction": "add",
 			"commitMessageExtra": "{{prettyNewVersion}}",
 			"commitMessageTopic": "`{{depName}}` version",
-			"extends": [":semanticCommitScopeDisabled", ":semanticCommitType(update)"]
+			"extends": [
+				":semanticCommitScopeDisabled",
+				":semanticCommitType(update)"
+			],
+			"schedule": ["* * * * *"]
 		}
 	]
 }
