@@ -5,6 +5,8 @@
     "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/github-actions",
     "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/package-sls",
     "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/pre-commit",
+    ":automergeStableNonMajor",
+    ":prHourlyLimit4",
     ":semanticCommitScopeDisabled",
     ":semanticPrefixChore",
   ],
