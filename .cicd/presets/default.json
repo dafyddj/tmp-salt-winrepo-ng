@@ -3,6 +3,7 @@
 	"description": "Default preset for use with Salt Winrepo repos",
 	"extends": [
 		"config:best-practices",
+		"github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/automerge-for-winrepo",
 		"github>saltstack/salt-winrepo-ng//.cicd/presets/configure-get-salt-versions",
 		"github>saltstack/salt-winrepo-ng//.cicd/presets/github-actions",
 		"github>saltstack/salt-winrepo-ng//.cicd/presets/package-sls",

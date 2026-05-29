@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>saltstack/salt-winrepo-ng//.cicd/presets/default",
+    "github>dafyddj/tmp-salt-winrepo-ng//.cicd/presets/default",
   ],
   "customDatasources": {
       "firefox": {
